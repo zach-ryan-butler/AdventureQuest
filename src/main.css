@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    text-align: center;
+    background: wheat;
+}
+
+header {
+    border-bottom: 1px solid;
+}
+
+#name {
+    display: inline-block;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    padding: 30px;
+}
+
+fieldset {
+    width: 300px;
+    margin: auto;
+}
+
+button {
+    font-size: 1.4em;
+    margin: 30px;
+}
