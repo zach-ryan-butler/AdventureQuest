@@ -1,12 +1,15 @@
 import makeUser from './make-user.js';
+import api from '../services/api.js';
 
 const trainerInfo = document.getElementById('trainer-info');
 
-trainerInfo.addEventListener('submit', function(event) {
+trainerInfo.addEventListener('submit', event => {
     event.preventDefault();
 
     const formData = new FormData(trainerInfo);
     const user = makeUser(formData);
 
-    console.log(user);
+    api.signUp(user);
+
+    window.location = '../../map.html';
 });

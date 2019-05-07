@@ -1,7 +1,7 @@
-function makeUser() {
+function makeUser(formData) {
     const user = {
-        name: 'ash',
-        pokemon: 'pikachu',
+        name: formData.get('name'),
+        pokemon: formData.get('pokemon'),
         hp: 50,
         exp: 0
     };
