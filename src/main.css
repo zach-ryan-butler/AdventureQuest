@@ -2,7 +2,6 @@
 
 body {
     text-align: center;
-    
     font-weight: bolder;
 }
 
@@ -22,7 +21,6 @@ h1 {
 
 header {
     border-bottom: 1px solid;
-    margin: 40px;
 }
 
 #name {

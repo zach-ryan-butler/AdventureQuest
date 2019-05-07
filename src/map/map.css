@@ -1,6 +1,24 @@
 header {
     display: flex;
-    align-items: center;
     justify-content: space-around;
+    align-items: center;
 }
+
+#profile {
+    display: flex;
+    align-items: center;
+}
+
+#user-icon {
+    width: 30px;
+}
+
+#profile-name {
+    margin-right: 10px;
+}
+
+#pokeball {
+    width: 60px;
+}
+
 
