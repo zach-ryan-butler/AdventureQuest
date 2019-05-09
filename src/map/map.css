@@ -21,4 +21,12 @@ header {
     width: 60px;
 }
 
+a {
+    display: block;
+    padding: 50px;
+    font-size: 1.3em;
+    color: red;
+    text-decoration: none;
+}
+
 

@@ -1,17 +1,15 @@
 import api from '../services/api.js';
+import loadProfile from '../load-profile.js';
+import createQuestLink from './create-quest-link.js';
 
-const userName = document.getElementById('profile-name');
-const hitPoints = document.getElementById('hp');
-const exp = document.getElementById('exp');
-const userIcon = document.getElementById('user-icon');
+loadProfile();
 
-const profileInfo = api.getUser();
+const quests = api.getQuests();
+const questParentNode = document.getElementById('quests');
 
-if(!profileInfo) {
-    window.location = './';
+for(let index = 0; index < quests.length; index++) {
+    const quest = quests[index];
+    const linkNode = createQuestLink(quest);
+
+    questParentNode.appendChild(linkNode);
 }
-
-userName.textContent = profileInfo.name;
-hitPoints.textContent = profileInfo.hp;
-exp.textContent = profileInfo.exp;
-userIcon.src = './assets/' + profileInfo.pokemon + '.png';
