@@ -1,4 +1,5 @@
 import api from '../src/services/api.js';
+import questData from '../src/services/quest-data.js';
 const test = QUnit.test;
 
 QUnit.testStart(() => {
@@ -23,4 +24,13 @@ test('signUp saves user info getUser grabs it from local storage', function(asse
     const result = api.getUser();
     //Assert
     assert.deepEqual(result, user);
+});
+
+test('get quest data', function(assert) {
+    //arrange
+    const expected = questData;
+    //act
+    const quests = api.getQuests();
+    //assert
+    assert.deepEqual(quests, expected);
 });

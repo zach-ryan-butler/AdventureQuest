@@ -34,7 +34,7 @@ fieldset {
     margin: auto;
 }
 
-label {
+.choose-pokemon {
     display: flex;
     align-items: center;
     margin-left: 75px;
