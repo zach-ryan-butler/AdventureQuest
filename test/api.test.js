@@ -34,3 +34,12 @@ test('get quest data', function(assert) {
     //assert
     assert.deepEqual(quests, expected);
 });
+
+test('get quest data by id', function(assert) {
+    //arrange
+    const expectedQuest = questData[1];
+    //act
+    const foundQuest = api.getQuest(expectedQuest.id);
+    //assert
+    assert.deepEqual(foundQuest, expectedQuest);
+});

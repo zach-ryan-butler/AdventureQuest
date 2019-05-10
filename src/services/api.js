@@ -14,6 +14,14 @@ const api = {
     },
     getQuests() {
         return questData;
+    },
+    getQuest(id) {
+        for(let index = 0; index < questData.length; index++) {
+            const quest = questData[index];
+            if(quest.id === id) {
+                return quest;
+            }
+        }
     }
 };
 
