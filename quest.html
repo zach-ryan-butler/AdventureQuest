@@ -20,19 +20,20 @@
         </div>
     </header>
     
-    <h2 id="title">Test Title</h2>
-    <img id="image" src="./assets/oak.png">
-    <p id="description">Description Paragraph</p>
-    <form id="choice-form">
-        <div>
-            <label for="fight">Battle them</label>
-            <input id="fight" type="radio" name="choice-buttons" value="fight">
-        </div>
-        <button>Choose</button>
-    </form>
-    <section id="results" class="hidden">
-        <p id='result-description'>Result Description</p>
-        <a href="./map.html">Back to map</a>
-    </section>
+    <main>
+        <h2 id="title"></h2>
+        <img id="image" src="./assets/oak.png">
+        <p id="description">Description Paragraph</p>
+        <form id="choice-form">
+            <p id="choices"></p>
+            <button>Choose</button>
+        </form>
+        <section id="results" class="hidden">
+            <p id='result-description'>Result Description</p>
+            <a href="./map.html">Back to map</a>
+        </section>
+    </main>
+
+    <script type="module" src="./src/quest/quest.js"></script>
 </body>
 </html>

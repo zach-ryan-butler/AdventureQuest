@@ -3,6 +3,8 @@
 body {
     text-align: center;
     font-weight: bolder;
+    background-image: url(../assets/background.jpg);
+    background-size: 100%;
 }
 
 main {

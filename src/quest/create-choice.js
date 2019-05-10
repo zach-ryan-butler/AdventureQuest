@@ -4,7 +4,7 @@ function createChoice(choice) {
     const input = document.createElement('input');
 
     label.setAttribute('for', choice.id);
-    label.textContent = 'Battle them';
+    label.textContent = choice.description;
     
     input.setAttribute('id', choice.id);
     input.setAttribute('type', 'radio');

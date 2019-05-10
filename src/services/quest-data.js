@@ -1,7 +1,7 @@
 const battle = {
     id: 'battle',
     title: 'A gym battle',
-    image: '',
+    image: 'gym.png',
     description: `
         You enter the gym and are confronted by the gym leader.
         They look intimidating and ready for battle. what do you do?
@@ -41,7 +41,7 @@ const battle = {
 const ferry = {
     id: 'ferry',
     title: 'A ferry ride',
-    image: '',
+    image: 'ferry.png',
     description: `
         You travel to the ferry for a ride aboard the S.S. Anne.
         Anticiapting a relaxing ferry ride you and your launchair
@@ -70,7 +70,7 @@ const ferry = {
         exp: 10
     }, {
         id: 'trade',
-        description: 'You trade Pokemon',
+        description: 'Trade Pokemon',
         result: `
             Knowing your pokemon's loyalty is absoulte you offer a trade
             and they agree. After the deal is done your pokemon ditches them
@@ -84,7 +84,7 @@ const ferry = {
 const center = {
     id: 'heal',
     title: 'Trip to Poke Center',
-    image: '',
+    image: 'center.png',
     description: `
         Exhausted from your journeys you decide to stop by the poke center 
         rest up. What do you do?
@@ -92,7 +92,7 @@ const center = {
     `,
     choices: [{
         id: 'rest',
-        description: 'Rest Pokemon',
+        description: 'Talk with the nurse',
         result: `
             Rest with Nurse Jenny and gain 50hp.
         `,
@@ -100,9 +100,9 @@ const center = {
         exp: 0
     }, {
         id: 'eat',
-        description: 'Grab a snack',
+        description: 'Look around',
         result: `
-            After skipping a few meals your willing to eat anyhting. You notice
+            After skipping a few meals your willing to eat anything. You notice
             some half eaten thai food sitting on the bench and wolf it down. Lose
             20 hp from food poisoning.
         `,
@@ -110,7 +110,7 @@ const center = {
         exp: 0
     }, {
         id: 'meditate',
-        description: 'You sit and meditate',
+        description: 'Rest and relaxation',
         result: `
             Too tired and hungry to do anything but sit you ponder the workings
             of the universe and gain inner peace. On the bright side you learn to
