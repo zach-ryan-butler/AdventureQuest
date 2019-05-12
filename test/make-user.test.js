@@ -16,6 +16,7 @@ test('create user object from form data', function(assert) {
         name: 'ash',
         pokemon: 'pikachu',
         hp: 50,
-        exp: 0
+        exp: 0,
+        completed: {}
     });
 });

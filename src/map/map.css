@@ -29,4 +29,12 @@ a {
     text-decoration: none;
 }
 
+.completed {
+    display: block;
+    padding: 50px;
+    font-size: 1.3em;
+    color: blue;
+    text-decoration: line-through;
+}
+
 

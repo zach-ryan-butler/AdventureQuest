@@ -8,7 +8,7 @@ QUnit.testStart(() => {
 
 api.storage = sessionStorage;
 
-test('signUp saves user info getUser grabs it from local storage', function(assert) {
+test('saveUser saves user info getUser grabs it from local storage', function(assert) {
     //Arrange
     // Set up your parameters and expectations
     const user = {
@@ -20,7 +20,7 @@ test('signUp saves user info getUser grabs it from local storage', function(asse
 
     //Act 
     // Call the function you're testing and set the result to a const
-    api.signUp(user);
+    api.saveUser(user);
     const result = api.getUser();
     //Assert
     assert.deepEqual(result, user);

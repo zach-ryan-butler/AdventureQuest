@@ -9,7 +9,7 @@ trainerInfo.addEventListener('submit', event => {
     const formData = new FormData(trainerInfo);
     const user = makeUser(formData);
 
-    api.signUp(user);
+    api.saveUser(user);
 
     window.location = '../../map.html';
 });
