@@ -4,9 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Pokemon Quest</title>
+    <link rel="stylesheet" href="./src/main.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Pokemon Trainer Quest</h1>
+    </header>
+
+    <main>
+        <h2>
+            start here trainer, if you have what it takes!
+        </h2>
+        <form id="trainer-info">
+            <span id="trainer-name">
+                <label id="name" for="name">Your Trainer Name:</label> 
+                <input name="name" type="text" required>
+            </span>
+
+                <fieldset>
+                    <legend>
+                        Choose Your Pokemon
+                    </legend>
+                    <label class="choose-pokemon">
+                        <input type="radio" name="pokemon" required value="pikachu">
+                        <img class="pokemon" src="./assets/pikachu.png" alt="pikachu icon">
+                        pikachu
+                    </label>
+                    <label class="choose-pokemon">
+                        <input type="radio" name="pokemon" required value="squirtle">
+                        <img class="pokemon" src="./assets/squirtle.png" alt="squirtle icon">
+                        squirtle
+                    </label>
+                    <label class="choose-pokemon">
+                        <input type="radio" name="pokemon" required value="bullbasaur">
+                        <img class="pokemon" src="./assets/bullbasaur.png" alt="bullbasaur icon">
+                        bullbasaur
+                    </label class="choose-pokemon">
+                    <label class="choose-pokemon">
+                        <input type="radio" name="pokemon" required value="charmander">
+                        <img class="pokemon" src="./assets/charmander.png" alt="charmander icon">
+                        charmander
+                    </label>
+                </fieldset>
+
+            <button>Start Adventure</button>
+        </form>
+    </main>
+
+    <footer>
+        <cite>
+            Icons designed by Freepik from Flaticon
+        </cite>
+    </footer>
+    <script type="module" src="./src/home/index.js"></script>
 </body>
 </html>

@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#profile {
+    display: flex;
+    align-items: center;
+}
+
+#user-icon {
+    width: 30px;
+}
+
+#profile-name {
+    margin-right: 10px;
+}
+
+#pokeball {
+    width: 60px;
+}
+
+a {
+    display: block;
+    padding: 50px;
+    font-size: 1.3em;
+    color: red;
+    text-decoration: none;
+}
+
+.completed {
+    display: block;
+    padding: 50px;
+    font-size: 1.3em;
+    color: blue;
+    text-decoration: line-through;
+}
+
+

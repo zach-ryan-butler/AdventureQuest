@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#profile {
+    display: flex;
+    align-items: center;
+}
+
+#user-icon {
+    width: 30px;
+}
+
+#profile-name {
+    margin-right: 10px;
+}
+
+#pokeball {
+    width: 60px;
+}
+
+#results {
+    background: lightsalmon;
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+}
+
+.hidden {
+    display: none;
+}

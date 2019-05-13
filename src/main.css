@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+    text-align: center;
+    font-weight: bolder;
+    background-image: url(../assets/background.jpg);
+    background-size: 100%;
+}
+
+main {
+    background: wheat;
+    width: 1200px;
+    height: 650px;
+    margin: auto;
+}
+
+h1, h2 {
+    font-family: 'Oswald';
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+header {
+    border-bottom: 1px solid;
+}
+
+#name {
+    display: inline-block;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    width: 300px;
+    margin: auto;
+}
+
+.choose-pokemon {
+    display: flex;
+    align-items: center;
+    margin-left: 75px;
+    padding: 20px;
+}
+
+.pokemon {
+    width: 70px;
+}
+
+button {
+    font-size: 1.4em;
+    margin: 30px;
+}
+
+#trainer-name {
+    margin-right: 90px;
+}

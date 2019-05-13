@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quest Page</title>
+    <link rel="stylesheet" href="./src/main.css">
+    <link rel="stylesheet" href="./src/quest/quest.css">
+</head>
+<body>
+    <header>
+        <img id="pokeball" src="./assets/pokeball.png" alt="pokeball">
+        <h1>Pokemon Trainer Quest</h1>
+        <div id="profile">
+            <img id="user-icon">
+            <p id="profile-name"></p>
+            HP: <span id="hp"></span>
+            EXP: <span id="exp"></span>
+        </div>
+    </header>
+    
+    <main>
+        <h2 id="title"></h2>
+        <img id="image" src="./assets/oak.png">
+        <p id="description">Description Paragraph</p>
+        <form id="choice-form">
+            <p id="choices"></p>
+            <button>Choose</button>
+        </form>
+        <section id="results" class="hidden">
+            <p id='result-description'>Result Description</p>
+            <a href="./map.html">Back to map</a>
+        </section>
+    </main>
+
+    <script type="module" src="./src/quest/quest.js"></script>
+</body>
+</html>
